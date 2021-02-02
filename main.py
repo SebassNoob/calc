@@ -1,3 +1,9 @@
+#on startup, pick operation you want carried out using button A or B 
+#button a+b to confirm
+#next, pick integer 1
+#a+b to confirm
+#pick integer 2
+#confirm and equation will show
 x = 0
 y = 0
 result = 0
