@@ -4,6 +4,7 @@
 // a+b to confirm
 // pick integer 2
 // confirm and equation will show
+// RESETS AFTER 60 SEC
 let x = 0
 let y = 0
 let result = 0
@@ -149,7 +150,7 @@ forever(function on_forever() {
         calc()
         pause(500)
         basic.showString(x + opfinal + y + "=" + result)
-        pause(10000)
+        pause(60000)
         control.reset()
     }
     
